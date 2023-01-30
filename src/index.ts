@@ -1,3 +1,9 @@
-export * from './providers/InitProvider';
-export * from './bridge/CoreDappBridge';
-export * from './bridge/ISetup';
+import InitProvider from "./providers/InitProvider";
+import CoreDappBridge from "./bridge/CoreDappBridge";
+import {ISetup} from "./bridge/ISetup";
+
+export {
+  InitProvider,
+  CoreDappBridge,
+  ISetup
+}

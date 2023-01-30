@@ -8,10 +8,16 @@ class CoreDappBridge extends InitProvider_1.default {
         super();
         this.isCoreDapp = true;
         this.address = setup.currentAddress;
+        this.chainId = setup.chainId;
+    }
+    handleChainChange(chainId) {
+        this.emit('connect', { chainId });
     }
     onChainChanged(chainId) {
+        this.handleChainChange(chainId);
         this.emit('chainChanged', chainId); // chain change event emitter
         this.emit('networkChanged', chainId); // legacy emitter
+        this.chainId = chainId;
     }
     onConnect(chainId) {
         this.emit('connect', { chainId });

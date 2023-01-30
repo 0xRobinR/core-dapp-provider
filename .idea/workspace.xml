@@ -5,51 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f644f89-7ead-43e9-bf29-ad000e0d7fa3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/IParams.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/IParams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/IParams.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/ISetup.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/ISetup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/bridge/ISetup.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/core-utils/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/core-utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/core-utils/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/index.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/providers/InitProvider.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/providers/InitProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/providers/InitProvider.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/providers/InitProviderTypes.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/providers/InitProviderTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/providers/InitProviderTypes.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/rpc/RPCall.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/rpc/RPCall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/src/rpc/RPCall.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter-dapp-provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/IParams.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bridge/ISetup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core-utils/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/InitProvider.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/InitProviderTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rpc/RPCall.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/bridge/ISetup.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/bridge/ISetup.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProvider.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/providers/InitProvider.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/providers/InitProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProvider.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/build/src/providers/InitProvider.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/ISetup.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/ISetup.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/InitProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/InitProvider.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +57,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
@@ -109,7 +82,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674997539779</updated>
-      <workItem from="1674997541085" duration="6660000" />
+      <workItem from="1674997541085" duration="16228000" />
     </task>
     <servers />
   </component>

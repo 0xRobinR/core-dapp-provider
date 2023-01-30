@@ -9,11 +9,18 @@ class CoreDappBridge extends InitProvider {
     super();
     this.isCoreDapp = true;
     this.address = setup.currentAddress;
+    this.chainId = setup.chainId;
+  }
+
+  handleChainChange(chainId: string) {
+    this.emit('connect', {chainId});
   }
 
   onChainChanged(chainId: string) {
+    this.handleChainChange(chainId);
     this.emit('chainChanged', chainId); // chain change event emitter
     this.emit('networkChanged', chainId); // legacy emitter
+    this.chainId = chainId;
   }
 
   onConnect(chainId: string) {
