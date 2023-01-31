@@ -1,4 +1,5 @@
 import {Buffer} from 'buffer';
+import {PendingJsonRpcResponse} from "json-rpc-engine";
 
 export class CoreUtils {
   static convertToBytes(payload: string | any) {
@@ -19,3 +20,14 @@ export class CoreUtils {
     return '0x' + Buffer.from(buf).toString('hex');
   }
 }
+
+export const getRpcPromiseCallback = ( resolve: (value?: any) => void, reject: (error?: Error) => void, unwrapResult = true, ) =>
+  (error: Error, response: PendingJsonRpcResponse<unknown>): void => {
+  if (error || response.error) {
+    reject(error || response.error);
+  } else {
+    !unwrapResult || Array.isArray(response)
+    ? resolve(response)
+    : resolve(response.result);
+  }
+};
