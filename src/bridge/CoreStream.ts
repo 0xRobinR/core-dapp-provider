@@ -20,7 +20,18 @@ export class CoreStream extends InitProvider {
 
     pump(
       this._jsonRpcConnection.stream,
-
+      this._handleOnDisconnect.bind(this)
     )
+
+    this.rpcEngine.push(this._jsonRpcConnection.middleware);
+
+    this._jsonRpcConnection.events.on('notification', (payload) => {
+      const { method, params } = payload;
+      if (method === 'accountsChanged') {
+        this._handleAccountsChanged(params);
+      } else if (method === 'chainChanged') {
+        this.handleChainChange(params);
+      }
+    });
   }
 }

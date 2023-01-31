@@ -5,39 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f644f89-7ead-43e9-bf29-ad000e0d7fa3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bridge/CoreStream.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/CoreDappBridge.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/IParams.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/IParams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/IParams.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/ISetup.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/ISetup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/bridge/ISetup.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/core-utils/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/core-utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/core-utils/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/index.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProvider.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProvider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProvider.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProviderTypes.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProviderTypes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/providers/InitProviderTypes.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/rpc/RPCall.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/rpc/RPCall.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/src/rpc/RPCall.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/IParams.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/IParams.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core-utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core-utils/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/InitProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/InitProvider.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/InitProviderTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/InitProviderTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/CoreStream.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreStream.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674997539779</updated>
-      <workItem from="1674997541085" duration="26240000" />
+      <workItem from="1674997541085" duration="26593000" />
     </task>
     <servers />
   </component>
