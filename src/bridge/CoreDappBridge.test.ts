@@ -15,7 +15,7 @@ describe('CoreDappBridge', () => {
       });
 
       // change the chain
-      coreDappBridge.onChainChanged('0x2');
+      coreDappBridge.handleChainChange('0x2');
 
       expect(coreDappBridge.chainId).toBe('0x2');
       expect(coreDappBridge.isCoreDapp).toBe(true);

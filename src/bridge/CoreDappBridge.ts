@@ -7,7 +7,6 @@ class CoreDappBridge extends CoreStream {
   constructor(setup: ISetup) {
     super(setup);
   }
-
 }
 
 export default CoreDappBridge;

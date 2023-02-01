@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f644f89-7ead-43e9-bf29-ad000e0d7fa3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/CoreStream.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreStream.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/CoreDappBridge.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +51,10 @@
     "RunOnceActivity.go.format.on.save.advertiser.fired": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "go.import.settings.migrated": "true",
+    "last_opened_file_path": "N:/360 Core/Core Apps/rnd/node-injector/inappwebview-provider",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +64,13 @@
     "ts.external.directory.path": "N:\\360 Core\\Core Apps\\rnd\\node-injector\\flutter-dapp-provider\\node_modules\\typescript\\lib"
   }
 }]]></component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$/../inappwebview-provider" />
+      </list>
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674997539779</updated>
-      <workItem from="1674997541085" duration="26593000" />
+      <workItem from="1674997541085" duration="29423000" />
     </task>
     <servers />
   </component>

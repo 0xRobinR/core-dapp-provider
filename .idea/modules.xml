@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flutter-dapp-provider.iml" filepath="$PROJECT_DIR$/flutter-dapp-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inappwebview-provider.iml" filepath="$PROJECT_DIR$/inappwebview-provider.iml" />
     </modules>
   </component>
 </project>
