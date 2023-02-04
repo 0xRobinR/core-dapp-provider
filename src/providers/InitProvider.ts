@@ -14,7 +14,7 @@ declare global {
     coreDapp: any;
   }
 }
-type funcType<T> = T | undefined;
+export type funcType<T> = T | undefined;
 
 export interface NonValidatedRequest {
   id?: JsonRpcId;
@@ -33,6 +33,7 @@ abstract class InitProvider extends EventEmitter implements InitProviderTypes {
   protected constructor(setup: ISetup) {
     super();
     this.rpcEngine = new JsonRpcEngine();
+
     this._initState(setup);
     this._isConnected = true;
   }
@@ -142,6 +143,7 @@ abstract class InitProvider extends EventEmitter implements InitProviderTypes {
   protected _handleOnDisconnect(){
     this.address = undefined;
     this._isConnected = false;
+    this.emit("disconnect")
   }
 }
 

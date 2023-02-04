@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f644f89-7ead-43e9-bf29-ad000e0d7fa3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/CoreDappBridge.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreDappBridge.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bridge/CoreStream.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bridge/CoreStream.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core-utils/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core-utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/InitProvider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/InitProvider.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674997539779</updated>
-      <workItem from="1674997541085" duration="29423000" />
+      <workItem from="1674997541085" duration="38937000" />
     </task>
     <servers />
   </component>

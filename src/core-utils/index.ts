@@ -19,6 +19,10 @@ export class CoreUtils {
   static payloadInHex(buf: string | any) {
     return '0x' + Buffer.from(buf).toString('hex');
   }
+
+  static jsonId() {
+    return new Date().getTime() + Math.floor(Math.random() * 10_000);
+  }
 }
 
 export const getRpcPromiseCallback = ( resolve: (value?: any) => void, reject: (error?: Error) => void, unwrapResult = true, ) =>
