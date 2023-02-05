@@ -1,7 +1,7 @@
 {
   "name": "@robincore/flutter-dapp-provider",
   "description": "a javascript ethereum provider injector used as an interface between wallet and dApps. [for flutter]",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "robin rajput <explain.this@robinrajput.com> (https://robinrajput.com)",
   "publishConfig": {
     "access": "public",

@@ -3,8 +3,8 @@ export interface IParams {
 }
 
 export interface IPayload {
-  id: number;
+  id?: number;
   jsonrpc?: string;
-  method?: string;
+  method: string;
   params?: unknown[] | Record<string, unknown>;
 }
