@@ -11,11 +11,11 @@ module.exports = {
   ],
   coverageReporters: ['html', 'json-summary', 'text'],
   coveragePathIgnorePatterns: ['/node_modules/'],
+  testEnvironment: 'jsdom',
   projects: [
     {
       ...tsConfig,
       displayName: 'CoreDappBridge',
-      testEnvironment: 'node',
       testMatch: [
         '**/CoreDappBridge.test.ts',
       ],

@@ -1,4 +1,6 @@
 import {CoreDappBridge} from '../index';
+import RPCall from "../rpc/RPCall";
+import {IPayload} from "./IParams";
 
 describe('CoreDappBridge', () => {
   describe('coreDappBridge chain change', () => {
@@ -20,5 +22,17 @@ describe('CoreDappBridge', () => {
       expect(coreDappBridge.chainId).toBe('0x2');
       expect(coreDappBridge.isCoreDapp).toBe(true);
     });
+
+    it("runs without any error", async () => {
+      const rpc = new RPCall("https://data-seed-prebsc-2-s3.binance.org:8545")
+      const payload: IPayload = {
+        method: "eth_gasPrice",
+        params: [],
+        jsonrpc: "2.0",
+        id: 21992
+      }
+      const req = await rpc.call(payload)
+      console.log(req)
+    })
   });
 });
