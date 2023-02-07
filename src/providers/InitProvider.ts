@@ -120,7 +120,7 @@ abstract class InitProvider extends EventEmitter implements InitProviderTypes {
   }
 
   eth_sign(payload: IParams) {
-    const buffer = CoreUtils.convertToBytes(payload.params[1]);
+    const buffer = CoreUtils.convertToBytes(payload[1]);
     const hex = CoreUtils.payloadInHex(buffer);
     if (isUtf8.default(buffer)) {
       this._onMessage('signPersonalMessage', {data: hex});

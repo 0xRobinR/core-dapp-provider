@@ -36,9 +36,7 @@ describe('CoreDappBridge', () => {
     })
 
     it('should sign message given', async function () {
-      coreDappBridge.eth_sign({
-        params: ["0x9392", "0x1"]
-      })
+      coreDappBridge.eth_sign(["0x9392", "0x1"])
     });
   });
 });
