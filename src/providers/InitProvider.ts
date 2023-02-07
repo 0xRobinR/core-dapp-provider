@@ -6,7 +6,7 @@ import {JsonRpcEngine, JsonRpcId, JsonRpcRequest, JsonRpcSuccess, JsonRpcVersion
 import {IParams, IPayload} from "../bridge/IParams";
 import {ethErrors} from "eth-rpc-errors";
 import {CoreUtils, getRpcPromiseCallback} from "../core-utils";
-import isUtf8 from "isutf8";
+import * as isUtf8 from "isutf8";
 import {ISetup} from "../bridge/ISetup";
 
 declare global {
@@ -122,7 +122,7 @@ abstract class InitProvider extends EventEmitter implements InitProviderTypes {
   eth_sign(payload: IParams) {
     const buffer = CoreUtils.convertToBytes(payload.params[1]);
     const hex = CoreUtils.payloadInHex(buffer);
-    if (isUtf8(buffer)) {
+    if (isUtf8.default(buffer)) {
       this._onMessage('signPersonalMessage', {data: hex});
     } else {
       this._onMessage('signMessage', {data: hex});
