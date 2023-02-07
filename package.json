@@ -1,7 +1,7 @@
 {
   "name": "@robincore/flutter-dapp-provider",
   "description": "a javascript ethereum provider injector used as an interface between wallet and dApps. [for flutter]",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "author": "robin rajput <explain.this@robinrajput.com> (https://robinrajput.com)",
   "publishConfig": {
     "access": "public",
@@ -52,9 +52,7 @@
     "build": "tsc",
     "fix": "gts fix",
     "test": "jest.cmd",
-    "prepare": "yarn.cmd run compile",
-    "pretest": "yarn.cmd run compile",
-    "posttest": "yarn.cmd run lint"
+    "prepare": "yarn.cmd run compile"
   },
   "bugs": {
     "url": "https://github.com/robin-360core/core-dapp-provider/issues"
