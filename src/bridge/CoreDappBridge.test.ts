@@ -1,6 +1,7 @@
 import {CoreDappBridge} from '../index';
 import RPCall from "../rpc/RPCall";
 import {IPayload} from "./IParams";
+import * as repl from "repl";
 
 describe('CoreDappBridge', () => {
   describe('coreDappBridge chain change', () => {
@@ -37,6 +38,15 @@ describe('CoreDappBridge', () => {
 
     it('should sign message given', async function () {
       coreDappBridge.eth_sign(["0x9392", "0x1"])
+    });
+
+    it('should send latest block', async function () {
+      const response = await coreDappBridge.request({
+        method: "eth_block",
+        params: ["latest"]
+      })
+
+      console.log(response)
     });
   });
 });
